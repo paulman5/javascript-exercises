@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - yeoman-generator > debug:
+        patched: '2022-10-05T15:56:13.349Z'
+    - yeoman-generator > yeoman-environment > debug:
+        patched: '2022-10-05T15:56:13.349Z'
